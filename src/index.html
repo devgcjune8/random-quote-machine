@@ -1,0 +1,41 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Machine</title>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> 
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9ec708144.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="quote-box">
+        <div id="text"><p><i class="fa-solid fa-quote-left"></i>  <span id="quote-text">I went to a bookstore and asked the saleswoman, 'Where's the self-help section?' She said if she told me, it would defeat the purpose.</span> <i class="fa-solid fa-quote-right"></i></p></div>
+        <div id="author"><p>- <span id="quote-author">George Carlin</span></p></div>
+        <button id="new-quote" onclick="randomQuotes();anim()">New Quote</button>
+        <div class="share-links">
+        <a href="twitter.com/intent/tweet" id="tweet-quote" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        </div>
+    </div>
+  <script src="main.js"></script>    
+</body>
+</html>

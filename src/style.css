@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(24, 0, 163, 0.651);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  height: 95vh;
+  width: 95vw;
+}
+
+ #quote-box {
+    padding: 25px;
+    background-color: azure;
+    font-family: 'Courgette', cursive;
+    color:rgb(108, 0, 158);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 25px 5px 25px;
+    border-style: double;
+    border: 10px double rgb(108, 0, 158);
+    
+}
+
+button {
+    border: 5px solid rgb(108, 0, 158);
+    border-radius: 10px 1px 10px;
+    padding: 12px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(108, 0, 158);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#text p {
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
+
+#author p {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 1.5em;
+    font-weight: 900;
+
+}
+#new-quote {
+    margin-left: -15px;
+}
+.share-links{
+    text-align: right;
+    margin-top: -35px;
+}
+
+.fa-twitter {
+    color: rgb(108, 0, 158);
+}
+
+.entrance {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+  
+    visibility: hidden;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
